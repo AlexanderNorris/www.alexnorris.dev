@@ -7,7 +7,7 @@ type = 'post'
 
 # What is Screeps?
 
-[Screeps|https://screeps.com/] is an MMO sandbox game for programmers released 16th November 2016 with the last update seemingly 8th November 2021. The overall goal is to write Javascript to guide your creeps on how to expand your colony through gathering of resources, building of structures and capturing of "rooms". This can involve Creep Vs. Creep action, so the PVP aspect is covered.
+[Screeps](https://screeps.com/) is an MMO sandbox game for programmers released 16th November 2016 with the last update seemingly 8th November 2021. The overall goal is to write Javascript to guide your creeps on how to expand your colony through gathering of resources, building of structures and capturing of "rooms". This can involve Creep Vs. Creep action, so the PVP aspect is covered.
 
 ## My Approach
 
@@ -21,7 +21,7 @@ Originally I wanted to get playing with TypeScript which I think will be of bene
 
 I played through the tutorial which covers the very basics of spawning creeps, gathering resources and building. Then opened training mode and started trying to learn the game itself, so many tutorials out there focus on the code which seems for many to be a case of copy pasting (boring). This seems to be the hardest things for Screeps, there is no clear documentation of what I should be building towards, for what purpose the market exists, just exactly what a Nuke does and what it takes to spawn a PowerCreep.
 
-Some things I read about in the [API docs|https://docs.screeps.com/api/] that will likely be useful one day in the future if I continue playing and don't get wiped out immediately but currently do not understand:
+Some things I read about in the [API docs](https://docs.screeps.com/api/) that will likely be useful one day in the future if I continue playing and don't get wiped out immediately but currently do not understand:
 
 - Nukes
 - Power Creeps
@@ -76,7 +76,7 @@ Remembering to throw `console.log()` everywhere when my code misbehaved usually 
 
 ### On Loops
 
-Apparently you cannot use a `break;` or `return` statement when iterating over an array using the .forEach() method. Why? Well according to [this article|https://dev.to/codenutt/why-you-can-t-break-a-foreach-loop-bytesize-js-d51] it would seem that it is because it is running a callback function over each item, as such you are calling break in a function that is not aware that it is part of a loop (for break) and for the case of return it is just returning within that callback function. Annoying but whatever, I can see why that is a thing.
+Apparently you cannot use a `break;` or `return` statement when iterating over an array using the .forEach() method. Why? Well according to [this article](https://dev.to/codenutt/why-you-can-t-break-a-foreach-loop-bytesize-js-d51) it would seem that it is because it is running a callback function over each item, as such you are calling break in a function that is not aware that it is part of a loop (for break) and for the case of return it is just returning within that callback function. Annoying but whatever, I can see why that is a thing.
 
 `for ( const thing in things ) {};` when thing was an object I was getting a damn String of value `'0'` returned - excuse me? Well apparently it's not just Javascript but other languages as well, you have to use a `for (const thing of things) {};` to access the object and its attributes.
 
