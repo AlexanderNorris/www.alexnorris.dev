@@ -1,6 +1,6 @@
 +++
 title = 'Playing Screeps - My first day'
-date = 2023-10-31T07:53:28Z
+date = 2025-08-13T11:08:00Z
 draft = false
 type = 'post'
 +++
