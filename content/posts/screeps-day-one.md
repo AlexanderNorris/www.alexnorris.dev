@@ -1,7 +1,7 @@
 +++
 title = 'Playing Screeps - My first day'
 date = 2025-08-13T00:00:00Z
-draft = false
+draft = true
 type = 'post'
 +++
 
